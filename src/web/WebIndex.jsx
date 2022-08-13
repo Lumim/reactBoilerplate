@@ -4,9 +4,7 @@ import Landing from './modules/Landing'
 const WebIndex=()=> {
   return (
      
-        <Routes>
-            <Route path='/' component={<Landing/>}/>
-        </Routes>
+    <Landing/>
     
   )
 }
